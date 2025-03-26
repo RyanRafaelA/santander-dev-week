@@ -18,7 +18,7 @@ classDiagram
     -String number
     -String agency
     -Number balance
-    -number limit
+    -Number limit
   }
 
   class Feature {
@@ -33,7 +33,7 @@ classDiagram
 
   class News {
     -String icon
-    String description
+    -String description
   }
 
   User "1" *-- "1" Account
